@@ -66,7 +66,7 @@
 	"RewardType": "Money",
 	"RewardDescription": "200g",	
     "Cancelable": true, 
-    "Trigger": "Yuuma 530 Custom_Ridgeside_RidgesideVillage 19 21", 
+    "Trigger": "Yuuma {{ja: Yuuma's Ring}} Custom_Ridgeside_RidgesideVillage 19 21", 
     "ReactionText": "You found it!? Thank you so much, @! I'm really grateful!$h"
     },
 	
@@ -114,7 +114,7 @@
 	"RewardType": "Money",
 	"RewardDescription": "500g",	
     "Cancelable": true, 
-    "Trigger": "Freddie 109 Custom_Ridgeside_RidgesideVillage 65 108", 
+    "Trigger": "Freddie {{ja: Freddie's Sword}} Custom_Ridgeside_RidgesideVillage 65 108", 
     "ReactionText": "There you are, old friend. Thank you, @!$h"
     },
 	
@@ -146,7 +146,7 @@
 	"RewardType": "Money",
 	"RewardDescription": "300g",	
     "Cancelable": true, 
-    "Trigger": "Richard 170 Custom_Ridgeside_LogCabinHotel2ndFloor 1 24", 
+    "Trigger": "Richard {{ja: Richard's Glasses}} Custom_Ridgeside_LogCabinHotel2ndFloor 1 24", 
     "ReactionText": "You found them? Ah! I am eternally grateful, @!$h"
     },
 	
