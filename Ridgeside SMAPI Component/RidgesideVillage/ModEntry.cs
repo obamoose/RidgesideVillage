@@ -61,6 +61,21 @@ namespace RidgesideVillage
                 Log.Debug($"Failed to load config settings. Will use default settings instead. Error: {e}");
                 Config = new ModConfig();
             }
+
+            //mark greenhouses as greenhouses, so trees can be planted
+            List<string> locationsNames = new List<string>() { "Custom_Ridgeside_AguarCaveTemporary", "Custom_Ridgeside_RSVGreenhouse1", "Custom_Ridgeside_RSVGreenhouse2" };
+            foreach (var name in locationsNames)
+            {
+                GameLocation location = Game1.getLocationFromName(name);
+                if (location == null)
+                {
+                    Log.Trace($"{name} is null");
+                    continue;
+                }
+                location.isGreenhouse.Value = true;
+                Log.Trace($"{name} set to greenhouse");
+
+            }
         }
 
     }
